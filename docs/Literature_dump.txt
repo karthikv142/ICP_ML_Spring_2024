@@ -5,7 +5,7 @@ Please use this text file to dump out your literature so that we can reorganize 
 Task Description:               Mohammed             TBD
 Expected Challenges (15%):      Colton               TBD
 Significance of Project (10%):  Karthik              DONE
-Related work (10%):             Nandini              TBD
+Related work (10%):             Nandini              DONE
 Data description (25%):         Teja                 DONE 
 Proposed approach (10%):        Chaithanya           TBD
 Final review (10%):             Hema                 TBD
