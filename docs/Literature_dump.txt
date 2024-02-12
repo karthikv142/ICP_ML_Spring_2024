@@ -28,4 +28,15 @@ Related work (10%):
 
 Data description (25%):
 https://myunt-my.sharepoint.com/:w:/g/personal/saitejanarravenkata_my_unt_edu/Eb3qCgZptMVGkD85cG99PXsBC1xw6vh3ImkOCyTVDgtVpg?e=w2zKAG
-Proposed approach (10%):
+Proposed approach (10%): Proposed approach:
+
+We will be working on two tasks, 
+
+Combining Recurrent Neural Network (RNN) and Convolutional Neural Network (CNN):
+CNNs extract features from images efficiently, making them well-suited for image processing tasks. CNNs can be used to encode images and extract pertinent visual information for image captioning. The matching captions are generated word by word by an RNN, such as a Gated Recurrent Unit (GRU) or Long Short-Term Memory (LSTM), when these features are provided to it.
+Limitation: CNN-RNN models might have trouble producing captions that are both contextually correct and detailed, particularly for complicated photos with lots of different items or situations. Additionally, they could provide bland captions that are unable to convey subtle nuances in the picture or lack originality.
+
+Transformer-based Models: Transformer designs have demonstrated impressive performance in a variety of natural language processing tasks, including language production. Examples of these architectures are the well-known BERT (Bidirectional Encoder Representations from Transformers) and GPT (Generative Pre-trained Transformer) models.
+Token embeddings that represent the captions can be paired with encoded image attributes in the context of image captioning. After processing this combined data, the transformer model creates captions that make sense and are contextually relevant.
+Limitation: Developing big transformer-based models may involve high processing costs and a significant volume of data. Additionally, in contrast to CNN-RNN models, producing captions using transformers may occasionally produce outputs that are excessively verbose or lack diversity since transformers value coherence and fluency over inventiveness.
+
