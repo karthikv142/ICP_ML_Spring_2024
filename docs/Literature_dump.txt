@@ -3,7 +3,7 @@ Please use this text file to dump out your literature so that we can reorganize 
        Sub-task                 Member              Status
 
 Task Description:               Mohammed             DONE
-Expected Challenges (15%):      Colton               TBD
+Expected Challenges (15%):      Colton               DONE
 Significance of Project (10%):  Karthik              DONE
 Related work (10%):             Nandini              DONE
 Data description (25%):         Teja                 DONE 
@@ -20,7 +20,7 @@ single column & 12 font size (5%)
 Task Description:
 The task of this project is to create an image-to-text generator application that combines the techniques of both computer vision and natural language processing to automatically generate textual descriptions for given images. It involves understanding the elements present in the image and translating it into coherent sentences. The project will leverage the VGG16 model which was developed by the University of Oxford. It has 3X3 filters in all convolutional layers and is a 16-layer model. The dataset that we will be using to develop this application is Flicker8k_Dataset available on Kaggle (https://www.kaggle.com/datasets/ming666/flicker8k-dataset)
 
-Expected Challenges (15%): TBD
+Expected Challenges (15%): As image captioning is still a rapidly-developing field, especially with the recent popularity of AI, we will face a number of challenges. Firstly, it is important that our data represents a diverse range of data, as well as _quality_ samples. Without this, our model, as trained as it may become, would be unfit for test data. Another difficult task will be the validation of model outputs, or in other words: how we determine when the model is right and when it is wrong. As this isn't something as simple as something like number detection (where we would have a fixed correct answer), there are multiple ways to describe a scene, and therefore will either have to be confirmed by humans or confirmed with a few keywords. The system for this validation ay prove to he a great challenge, or if done by hand, a large amount of time. We will surely face more challenges down the road, but these are what we can focus on for now.
 
 Significance of Project (10%):
 Image caption generator converts a set of pixel data into a human readable form. It is a very significant problem in computer vision that helps the user in scene understanding. It helps in providing additional information about a given image to get a better understanding of the image. Generating a caption to describe the interaction between elements in an image can be very helpful in so may ways. These are a few examples where Image caption generator could be useful, (i) It can help the visually impaired people to listen to the captions and understand them without having to view the image or touching it; (ii) It can also help in content recognition and recommendation for similar images; and (iii) It can be used to improve the quality of image based websites and applications.
