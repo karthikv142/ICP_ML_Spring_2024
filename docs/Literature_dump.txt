@@ -2,7 +2,7 @@ Please use this text file to dump out your literature so that we can reorganize 
 
        Sub-task                 Member              Status
 
-Task Description:               Mohammed             TBD
+Task Description:               Mohammed             DONE
 Expected Challenges (15%):      Colton               TBD
 Significance of Project (10%):  Karthik              DONE
 Related work (10%):             Nandini              TBD
@@ -18,6 +18,7 @@ Suggestions so far: Image Caption Generator (ICG), Image captioning with Machine
 single column & 12 font size (5%)
 
 Task Description:
+The task of this project is to create an image-to-text generator application that combines the techniques of both computer vision and natural language processing to automatically generate textual descriptions for given images. It involves understanding the elements present in the image and translating it into coherent sentences. The project will leverage the VGG16 model which was developed by the University of Oxford. It has 3X3 filters in all convolutional layers and is a 16-layer model. The dataset that we will be using to develop this application is Flicker8k_Dataset available on Kaggle (https://www.kaggle.com/datasets/ming666/flicker8k-dataset)
 
 Expected Challenges (15%):
 
