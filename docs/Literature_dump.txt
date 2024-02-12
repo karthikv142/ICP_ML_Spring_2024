@@ -6,7 +6,7 @@ Task Description:               Mohammed             TBD
 Expected Challenges (15%):      Colton               TBD
 Significance of Project (10%):  Karthik              DONE
 Related work (10%):             Nandini              TBD
-Data description (25%):         Teja                 DONE https://myunt-my.sharepoint.com/:w:/g/personal/saitejanarravenkata_my_unt_edu/Eb3qCgZptMVGkD85cG99PXsBC1xw6vh3ImkOCyTVDgtVpg?e=w2zKAG
+Data description (25%):         Teja                 DONE 
 Proposed approach (10%):        Chaithanya           TBD
 Final review (10%):             Hema                 TBD
 Images and graph inclusion:     Owais                TBD
@@ -27,5 +27,5 @@ Image caption generator converts a set of pixel data into a human readable form.
 Related work (10%):
 
 Data description (25%):
-
+https://myunt-my.sharepoint.com/:w:/g/personal/saitejanarravenkata_my_unt_edu/Eb3qCgZptMVGkD85cG99PXsBC1xw6vh3ImkOCyTVDgtVpg?e=w2zKAG
 Proposed approach (10%):
