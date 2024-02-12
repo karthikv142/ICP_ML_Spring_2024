@@ -25,7 +25,7 @@ Expected Challenges (15%): TBD
 Significance of Project (10%):
 Image caption generator converts a set of pixel data into a human readable form. It is a very significant problem in computer vision that helps the user in scene understanding. It helps in providing additional information about a given image to get a better understanding of the image. Generating a caption to describe the interaction between elements in an image can be very helpful in so may ways. These are a few examples where Image caption generator could be useful, (i) It can help the visually impaired people to listen to the captions and understand them without having to view the image or touching it; (ii) It can also help in content recognition and recommendation for similar images; and (iii) It can be used to improve the quality of image based websites and applications.
 
-Related work (10%): TBD
+
 
 Data description (25%):
 https://myunt-my.sharepoint.com/:w:/g/personal/saitejanarravenkata_my_unt_edu/Eb3qCgZptMVGkD85cG99PXsBC1xw6vh3ImkOCyTVDgtVpg?e=w2zKAG
