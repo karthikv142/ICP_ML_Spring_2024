@@ -2,12 +2,12 @@ Please use this text file to dump out your literature so that we can reorganize 
 
        Sub-task                 Member              Status
 
-Task Description:               Mohammed             TBD
+Task Description:               Mohammed             DONE
 Expected Challenges (15%):      Colton               TBD
 Significance of Project (10%):  Karthik              DONE
 Related work (10%):             Nandini              DONE
 Data description (25%):         Teja                 DONE 
-Proposed approach (10%):        Chaithanya           TBD
+Proposed approach (10%):        Chaithanya           DONE
 Final review (10%):             Hema                 TBD
 Images and graph inclusion:     Owais                TBD
  
@@ -18,17 +18,28 @@ Suggestions so far: Image Caption Generator (ICG), Image captioning with Machine
 single column & 12 font size (5%)
 
 Task Description:
+The task of this project is to create an image-to-text generator application that combines the techniques of both computer vision and natural language processing to automatically generate textual descriptions for given images. It involves understanding the elements present in the image and translating it into coherent sentences. The project will leverage the VGG16 model which was developed by the University of Oxford. It has 3X3 filters in all convolutional layers and is a 16-layer model. The dataset that we will be using to develop this application is Flicker8k_Dataset available on Kaggle (https://www.kaggle.com/datasets/ming666/flicker8k-dataset)
 
-Expected Challenges (15%):
+Expected Challenges (15%): TBD
 
 Significance of Project (10%):
 Image caption generator converts a set of pixel data into a human readable form. It is a very significant problem in computer vision that helps the user in scene understanding. It helps in providing additional information about a given image to get a better understanding of the image. Generating a caption to describe the interaction between elements in an image can be very helpful in so may ways. These are a few examples where Image caption generator could be useful, (i) It can help the visually impaired people to listen to the captions and understand them without having to view the image or touching it; (ii) It can also help in content recognition and recommendation for similar images; and (iii) It can be used to improve the quality of image based websites and applications.
 
-Related work (10%): Sivala Nandini(11755819)
+Related work (10%):
 "Show, Attend and Tell: Neural Image Caption Generation with Visual Attention," which was put forth by Yoshua Bengio, Richard S. Zemel, Kyunghyun Cho, Aaron Courville, Jimmy Lei Ba, Ryan Kiros, Ruslan Salakhutdinov, and Kelvin Xu in 2016, presents attention-based models for automatically describing image content. incorporates attention methods to generate innovative picture captions that are more accurate in describing images by dynamically focusing on prominent features. Inspired by machine translation and object recognition, this method achieves state-of-the-art results on benchmark datasets such as MS COCO, Flickr8k, and Flickr30k. Enhanced caption quality, attention visualization, and insights into model behavior are among its strengths. Nevertheless, problems are brought about by the attention processes' introduction of training variability and increasing model complexity. To guarantee stability and convergence, managing this complexity necessitates cautious application and training methodologies. "Show, Attend and Tell" is a potential way to significantly improve the interpretation and expression of visual content in natural language, and it marks a substantial development in image captioning overall.
 
 The Neural Image Caption (NIC) model is introduced in "Show and Tell: A Neural Image Caption Generator," a proposal that Oriol Vinyals, Alexander Toshev, Samy Bengio, and Dumitru Erhan made in 2015. It addresses the problem of automatically describing images with natural language. NIC provides an end-to-end solution trainable via stochastic gradient descent by fusing recurrent neural networks (RNNs) for language synthesis with deep convolutional neural networks (CNNs) for picture understanding. Higher BLEU scores on several datasets demonstrate its remarkable performance advantages over existing methods due to its inclusion of cutting-edge sub-networks for language and vision models. Even with its advantages, NIC may have drawbacks due to its intricacy and need on large amounts of training data. Its performance could be limited by the quantity and caliber of training datasets, and its architecture could be difficult to deploy and train. Furthermore, even though BLEU ratings provide a quantitative assessment, the subtleties of created descriptions could not be entirely captured by them. Overall, NIC represents a promising advancement in the field of image captioning, though ongoing research is necessary to address its complexities and enhance its robustness across diverse domains and datasets.
 
 Data description (25%):
 https://myunt-my.sharepoint.com/:w:/g/personal/saitejanarravenkata_my_unt_edu/Eb3qCgZptMVGkD85cG99PXsBC1xw6vh3ImkOCyTVDgtVpg?e=w2zKAG
+
 Proposed approach (10%):
+We will be working on two tasks, 
+
+Combining Recurrent Neural Network (RNN) and Convolutional Neural Network (CNN):
+CNNs extract features from images efficiently, making them well-suited for image processing tasks. CNNs can be used to encode images and extract pertinent visual information for image captioning. The matching captions are generated word by word by an RNN, such as a Gated Recurrent Unit (GRU) or Long Short-Term Memory (LSTM), when these features are provided to it.
+Limitation: CNN-RNN models might have trouble producing captions that are both contextually correct and detailed, particularly for complicated photos with lots of different items or situations. Additionally, they could provide bland captions that are unable to convey subtle nuances in the picture or lack originality.
+
+Transformer-based Models: Transformer designs have demonstrated impressive performance in a variety of natural language processing tasks, including language production. Examples of these architectures are the well-known BERT (Bidirectional Encoder Representations from Transformers) and GPT (Generative Pre-trained Transformer) models.
+Token embeddings that represent the captions can be paired with encoded image attributes in the context of image captioning. After processing this combined data, the transformer model creates captions that make sense and are contextually relevant.
+Limitation: Developing big transformer-based models may involve high processing costs and a significant volume of data. Additionally, in contrast to CNN-RNN models, producing captions using transformers may occasionally produce outputs that are excessively verbose or lack diversity since transformers value coherence and fluency over inventiveness.
