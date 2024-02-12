@@ -1,0 +1,31 @@
+Please use this text file to dump out your literature so that we can reorganize it into a word file once everyone has completed their part.
+
+       Sub-task                 Member              Status
+
+Task Description:               Mohammed             TBD
+Expected Challenges (15%):      Colton               TBD
+Significance of Project (10%):  Karthik              DONE
+Related work (10%):             Nandini              TBD
+Data description (25%):         Teja                 TBD
+Proposed approach (10%):        Chaithanya           TBD
+Final review (10%):             Hema                 TBD
+Images and graph inclusion:     Owais                TBD
+ 
+Title of the project (5%) (Please feel free to suggest any other title you feel would be good)
+Suggestions so far: Image Caption Generator (ICG), Image captioning with Machine Learning (ICML)
+
+4 pages max (10%)
+single column & 12 font size (5%)
+
+Task Description:
+
+Expected Challenges (15%):
+
+Significance of Project (10%):
+Image caption generator converts a set of pixel data into a human readable form. It is a very significant problem in computer vision that helps the user in scene understanding. It helps in providing additional information about a given image to get a better understanding of the image. Generating a caption to describe the interaction between elements in an image can be very helpful in so may ways. These are a few examples where Image caption generator could be useful, (i) It can help the visually impaired people to listen to the captions and understand them without having to view the image or touching it; (ii) It can also help in content recognition and recommendation for similar images; and (iii) It can be used to improve the quality of image based websites and applications.
+
+Related work (10%):
+
+Data description (25%):
+
+Proposed approach (10%):
